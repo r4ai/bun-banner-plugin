@@ -37,14 +37,14 @@ await Bun.build({
 Suppose you have the following `src/index.ts`.
 
 ```ts
-const helloWorld = () => "Hello, world!";
+console.log("Hello, world!");
 ```
 
 Now, using the `build.ts` I wrote in [Usage](#usage), run `bun run build ./src/index.ts`, the following will be output:
 
 ```js
 #!/usr/bin/env node
-const helloWorld = () => "Hello, world!";
+console.log("Hello, world!");
 ```
 
 ## Options

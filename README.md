@@ -52,8 +52,8 @@ console.log("Hello, world!");
 - The key is a regular expression that matches the file extension.
   - The given key is interpreted as a regular expression, so you need to escape special characters.
   - For example:
-    - If the key is `json`, it will interpreted as `/.json$/`. It will match `.json` files.
-    - If the key is `ts|tsx|js|jsx`, it will iterpreted as `/.ts|tsx|js|jsx$/`. It will match `.ts`, `.tsx`, `.js`, `.jsx` files.
+    - If the key is `json`, it will interpreted as `/.(json)$/`. It will match `.json` files.
+    - If the key is `ts|tsx|js|jsx`, it will iterpreted as `/.(ts|tsx|js|jsx)$/`. It will match `.ts`, `.tsx`, `.js`, `.jsx` files.
 - The value is the string to be inserted at the beginning of the file.
   - If the value is an array, the strings in the array will be joined with a newline character.
   - If the value is a string, it will be inserted as is.

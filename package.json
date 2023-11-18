@@ -1,6 +1,6 @@
 {
   "name": "bun-banner-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Insert an arbitrary string at the beginning of generated content. Inspired by esbuild banner option.",
   "keywords": [
     "bun",

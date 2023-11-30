@@ -40,7 +40,7 @@ Suppose you have the following `src/index.ts`.
 console.log("Hello, world!");
 ```
 
-Now, using the `build.ts` I wrote in [Usage](#usage), run `bun run build ./src/index.ts`, the following will be output:
+Now, using the `build.ts` I wrote in [Usage](#usage), run `bun run build.ts`, the following will be output:
 
 ```js
 #!/usr/bin/env node

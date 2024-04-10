@@ -5,7 +5,7 @@ A small plugin to insert an arbitrary string at the beginning of generated conte
 ## Installation
 
 ```sh
-bun add -D bun-npm-package
+bun add -D bun-banner-plugin
 ```
 
 ## Usage

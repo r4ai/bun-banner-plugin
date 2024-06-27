@@ -43,7 +43,7 @@
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "@biomejs/biome": "1.8.2",
+    "@biomejs/biome": "1.8.3",
     "@qnighy/dedent": "^0.1.1",
     "bun-plugin-dts": "^0.2.1",
     "bun-types": "^1.0.7",
